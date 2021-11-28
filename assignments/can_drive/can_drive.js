@@ -1,4 +1,4 @@
-function CanDrive(hasDrivingLiscence, isTired, isSober) {
+
     // Write you code here
     function CanDrive(hasDrivingLiscence, isTired, isSober) {
         if(hasDrivingLiscence==true && isTired==false &&isSober==true){
@@ -16,9 +16,3 @@ function CanDrive(hasDrivingLiscence, isTired, isSober) {
     }
     
     module.exports = CanDrive;
-
-
-
-}
-
-module.exports = CanDrive;
